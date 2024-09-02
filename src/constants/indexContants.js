@@ -1,12 +1,14 @@
 import { SiDoi, SiVite, SiTailwindcss, SiMongodb, SiExpress, SiMysql } from 'react-icons/si';
 import { BiLogoGithub } from 'react-icons/bi';
-import { FaChrome, FaPython, FaReact, FaNode, FaJava } from "react-icons/fa";
+import { FaChrome, FaPython, FaReact, FaNode, FaJava, FaLaravel } from "react-icons/fa";
 import { GrArticle } from "react-icons/gr";
+import { IoLogoVue } from "react-icons/io5";
 
 import journalFront from "/journalFrontPage.jpg";
 import veterinariaFront from "/veterinariaFront.jpg";
 import observatoryFront from "/observatoryFront.jpg";
 import monitoreoFront from "/monitoreo.jpg";
+import gestionFront from "/gestion_front.jpg";
 
 export const ServiceData = (t) => [
   {
@@ -34,6 +36,22 @@ export const ServiceData = (t) => [
       {
         icon: FaChrome,
         link: "https://observatorio-mental.netlify.app/",
+      }
+    ]
+  },
+  {
+    title: t("studentManagmentTitle"),
+    content: t("studentManagmentContent"),
+    backgroundImage: gestionFront,
+    tecnologiesUsedIcons: [ IoLogoVue, SiVite, SiTailwindcss, SiMysql, FaLaravel ],
+    links: [
+      {
+        icon: BiLogoGithub,
+        link: "https://github.com/GWRT/academicoFront.git",
+      },
+      {
+        icon: FaChrome,
+        link: "https://academico-front.vercel.app/",
       }
     ]
   },

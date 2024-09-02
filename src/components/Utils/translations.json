@@ -36,7 +36,9 @@
       "contactMeByNetwork": "Or contact me through...",
       "messageSend": "The email was sent successfully",
       "messageErrorSend": "The email was not sent for some reason. Try it on my other social networks",
-      "okMessageForm": "OK"
+      "okMessageForm": "OK",
+      "studentManagmentTitle": "Student management",
+      "studentManagmentContent": "This student manager allows you to register, edit and delete students from a database"
     },
     "es": {
       "myProjects": "MIS PROYECTOS",
@@ -75,7 +77,9 @@
       "contactMeByNetwork": "O contáctame a través de...",
       "messageSend": "El correo se envió con éxito",
       "messageErrorSend": "El correo no se envio por algun motivo. Intentelo por mis otras redes sociales",
-      "okMessageForm": "Aceptar"
+      "okMessageForm": "Aceptar",
+      "studentManagmentTitle": "Gestión de estudiantes",
+      "studentManagmentContent": "Este gestor de estudiantes permite registrar, editar y eliminar estudiantes de una base de datos"
     }
   }
   
